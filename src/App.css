@@ -1,0 +1,96 @@
+#root {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.header{
+  background-color: black;
+  border-radius: 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header-container{
+  width: 100%;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header-main{
+  display: flex;
+  align-items: center;
+}
+.header-main h2{
+  color: white;
+  font-family: sans-serif;
+}
+.header-main h2:hover{
+  background-color: rgb(197, 91, 52);
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+.header-connect{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.header-connect img{
+  margin-left: 10px;
+}
+.span{
+  color: rgb(197, 91, 52);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown{
+  /* background-color: snow; */
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.select{
+  border: none;
+  
+  font-weight: bold;
+  background-color: whitesmoke;
+}
+.m1{
+  background-color: goldenrod;
+}
+.m2{
+  background-color: green;
+}
+.m3{
+  background-color: palevioletred;
+}
+.m4{
+  background-color: rgb(0, 170, 255);
+}
+
+.textfield{
+  width: 80%;
+  border: none;
+  margin: 10px;
+  border-radius: 0;
+  border-radius: 5px;
+  background-color: palevioletred;
+  color: black;
+}
+
+.button{
+  width: 13%;
+  height: 55px;
+}
+
+.selectTab{
+  color: white;
+}
